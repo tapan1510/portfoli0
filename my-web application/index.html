@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-profile</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+     header{
+        border: 1px solid gray;
+        box-shadow: 2px 2px 2px gray;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+     }
+     .title{
+        font-weight: bold;
+        font-family: arial;
+        font-size: 30px;
+     }
+     .nav-bar{
+        display: flex;
+     }
+     .nav-bar div{ 
+        margin-right: 30px;
+       font-size: 20px;
+       font-family: arial;
+       font-weight: bold;
+     }
+     .banner{
+        margin-top: 5px;
+        box-shadow: 2px 2px 2px gray;
+        border: 1px gray;
+        background-image: url("../images/boys.jpg");
+     }
+     .side-panel{
+        font-size: 30px;
+        font-family: arial;
+        text-align: center;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        padding: 30px;
+     }
+    </style>
+</head>
+<body class="container-fluid">
+    <header>
+        <div class="title">
+            PORTFOLIO
+        </div>
+        <div class="nav-bar">
+            <div>class</div>
+            <div>home</div>
+            <div>about</div>
+            <div>service</div>
+            <div>my projects</div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="side-panel">
+            <div>
+                <h1>i am a web desinger</h1>
+                <p>check my project</p>
+                <div>
+                    <button class="btn btn-danger">sign</button>
+                    <button class="btn btn-warning">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
